@@ -1,0 +1,431 @@
+/* reverting the default values*/
+*{
+    all:revert;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 0;
+    padding: 0 0;
+    color: black;
+}
+/*for the logo*/
+.image-responsive{
+    width:100%;
+}
+/*for the logo div layout*/
+.logo{
+    float:left;
+    margin:2% -18%;
+    width:10%;
+}
+/*Navigation bar on the top*/
+.container{
+    width:80%;
+    margin:1% 18%;
+}
+.text-right{
+    justify-content: right;
+    text-align: right;
+}
+.navbar{
+    line-height: 40px; 
+}
+.navbar ul{  
+    list-style-type: none;
+    width: 700px;;
+    float: right;
+}
+.navbar ul li{
+    float:right;
+    padding:2% 3%;
+    font-weight: bold;
+}
+.navbar ul li a{
+    font-family: arial;
+    color:rgb(14, 13, 13);
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: 17px;
+    font-weight: 600;
+}
+.navbar ul li a:hover{
+    color:white;
+}
+/*for the 'order Online' button*/
+.btn1{
+    border-radius: 10px;
+    background-color: orange;
+    padding: 3px 5px;
+    border: none;
+    cursor:pointer;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color:rgb(247, 242, 247);
+    color:black;
+    font-weight: bolder;
+}
+.button, .dropdown-menu{
+    margin: 10px auto;
+}
+.dropdown{
+    text-align: center;
+}
+.dropdown-menu{
+    width: 94px;
+    text-align: left;
+}
+/*Login form*/
+.login{
+    margin: 4% 68%;
+    padding:3%;
+    display:flex;
+	justify-content: center; 
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+label{
+    color:white;
+}
+form{
+	width: 500px;
+    justify-content: center;
+	padding: 30px;
+	/*background: rgb(238, 141, 14);*/
+	border-radius: 15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8)  50%);
+}
+h2 {
+    color:white;
+    width:450px;
+    font-family: sans-serif;
+	text-align: center;
+}
+input {
+    display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+button {
+	float: right;
+	background:#ff7200;
+	padding: 10px 15px;
+	color: rgb(8, 7, 7);
+    font-weight: bold;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+button:hover{
+	opacity: 7;
+    background-color: #eee;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+.admin{
+    background-color: #ff7200;
+    color:black;
+    font-weight: bold;
+    float:center;
+    padding:3% 10%;
+    margin:3% 38%;
+    align-items: center;
+    align-content: center;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+/*button format*/
+.admin:hover{
+    opacity: 7;
+    background-color:#eee;
+}
+/*form icons*/
+
+
+
+
+
+
+
+/* CSS for All */
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+  }
+  .img-responsive {
+    width: 100%;
+  }
+  .img-curve {
+    border-radius: 15px;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-white {
+    color: white;
+  }
+  
+  .clearfix {
+    clear: both;
+    float: none;
+  }
+  
+  a {
+    color: #5d9e5f;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #5d9e5f;
+  }
+  
+  .btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  .btn-primary {
+    background-color: #5d9e5f;
+    color: white;
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    color: white;
+    background-color: #5d9e5f;
+  }
+  h2 {
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .float-container {
+    position: relative;
+  }
+  .float-text {
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+  }
+  fieldset {
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+  }
+  
+  .error {
+    padding: 2%;
+    color: red;
+  }
+  .success {
+    padding: 2%;
+    color: green;
+  }
+  
+  /* CSSS for navbar section */
+  
+  .logo {
+    width: 10%;
+    float: left;
+  }
+  .menu {
+    line-height: 60px;
+  }
+  .menu ul {
+    list-style-type: none;
+  }
+  
+  .menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+  }
+  
+  /* CSS for Food SEarch Section */
+  
+  .food-search {
+    background-image: url(../images/fosyyyy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+  }
+  
+  .food-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .food-search2 {
+    background-image: url(../images/ibg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+  }
+  
+  .food-search2 input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* CSS for Categories */
+  .categories {
+    padding: 4% 0;
+  }
+  
+  .box-3 {
+    width: 28%;
+    float: left;
+    margin: 2%;
+  }
+  
+  /* CSS for Food Menu */
+  .food-menu {
+    background-color: #ececec;
+    padding: 4% 0;
+  }
+  .food-menu-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  .food-menu-img {
+    width: 20%;
+    float: left;
+  }
+  
+  .food-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+  }
+  
+  .food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+  }
+  .food-detail {
+    font-size: 1rem;
+    color: #747d8c;
+  }
+  
+  /* CSS for Social */
+  .social ul {
+    list-style-type: none;
+  }
+  .social ul li {
+    display: inline;
+    padding: 1%;
+  }
+  
+  /* for Order Section */
+  .order {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  .order-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+  }
+  
+  /* CSS for Mobile Size or Smaller Screen */
+  
+  @media only screen and (max-width: 768px) {
+    .logo {
+      width: 80%;
+      float: none;
+      margin: 1% auto;
+    }
+  
+    .menu ul {
+      text-align: center;
+    }
+  
+    .food-search input[type="search"] {
+      width: 90%;
+      padding: 2%;
+      margin-bottom: 3%;
+    }
+  
+    .btn {
+      width: 91%;
+      padding: 2%;
+    }
+  
+    .food-search {
+      padding: 10% 0;
+    }
+  
+    .categories {
+      padding: 20% 0;
+    }
+    h2 {
+      margin-bottom: 10%;
+    }
+    .box-3 {
+      width: 100%;
+      margin: 4% auto;
+    }
+  
+    .food-menu {
+      padding: 20% 0;
+    }
+  
+    .food-menu-box {
+      width: 90%;
+      padding: 5%;
+      margin-bottom: 5%;
+    }
+    .social {
+      padding: 5% 0;
+    }
+    .order {
+      width: 100%;
+    }
+  }
+
+  
+  
