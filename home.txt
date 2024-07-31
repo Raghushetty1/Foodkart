@@ -1,0 +1,26 @@
+        
+        <?php start: echo "<script>alert('hi');</script>";
+        echo"<div class='carousel-item' style='height: 570px' data-bs-interval='1000'>";
+                echo "<img src='images/3.jpg' height='100%' width='100%' class='d-block w-100' alt='...'>";
+                echo "<div class='carousel-caption d-none d-md-block' style='height:90%; margin:auto'>";
+                   echo "<h3 style='color:orangered; padding: 1%; font-weight:bolder'>Special
+                        dishes prepared to be served</h3>";
+                    echo" <div class='card-group'>";
+                    echo"
+                        <div class='card'>";?>
+                                        <?php echo '<img src="../Foodkart/images/' . $r['img'] . '" class="card-img-top" width="50" height="50"/>'; ?>
+<?php echo "
+                        <div class='card-body'>";?>
+                                <h5 class='card-title'><?php echo $r['iname'];?></h5>
+                                <p class='card-text'><?php echo $r['discrip'];?>
+                                </p>
+                               <?php echo" <a href='#' class='btn btn-primary'>Order</a>
+                            </div>
+                        </div>
+                        ";?>
+                        <?php }
+                        echo "
+                    </div>
+                </div>
+            </div>";
+            ?>

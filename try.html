@@ -1,0 +1,38 @@
+<div style="margin:6px">
+    <table align="center" bgcolor="white" cellpadding="12px" cellspacing="4px">
+        <tr cellpadding='2px'>
+            <td>User id</td>
+            <td>Password</td>
+            <td>Employee name</td>
+            <td>Designation</td>
+            <td>Age</td>
+            <td>Address</td>
+            <td>Salary</td>
+            <td>Action</td>
+        </tr>
+        <?php
+            $con=mysqli_connect('localhost','root','','foodkart');
+            $result=$con->query("select * from emp");
+            //echo"<table align='center' bgcolor='white' border='2px' cellpadding='12px' cellspacing='20px'>";
+            while($r=$result->fetch_assoc())
+            {
+                echo"<tr>";
+                echo"<th>".$r['user']."</th>";
+                echo"<th>".$r['pwd']."</th>";
+                echo"<th>".$r['ename']."</th>";
+                echo"<th>".$r['desg']."</th>";
+                echo"<th>".$r['age']."</th>";
+                echo"<th>".$r['add']."</th>";
+                echo"<th>".$r['salary']."</th>";
+                echo"<th><button class='btn btn-primary'>Modify</button> <button class='btn btn-danger'>Delete</button></th>";
+                echo"</tr>";
+            }
+        ?>
+    </table>
+</div>
+<a href="addemp.php">
+<button style="margin:3% 5%" class="btn btn-primary">Add employee</button>
+</a>
+</div>
+</div>
+</div>
